@@ -17,4 +17,14 @@ function App() {
 }
 
 
+return (
+
+<div>
+<p> count: {count}</p>
+<button onclick={()=> setCount(count + 1)}> Increment </button>
+<button onclick={()=> setCount(0)}>Reset</button>
+</div>
+
+  );
+}
 
